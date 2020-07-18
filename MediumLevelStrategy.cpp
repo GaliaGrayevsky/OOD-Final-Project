@@ -9,6 +9,6 @@ CMediumLevelStrategy::CMediumLevelStrategy()
 int CMediumLevelStrategy::playTurn(const GAME_STATUS& a_gameState)
 {
 	int col = rand() % NUM_COL;
-	return col;
+	return col; //Galia commit test
 }
 
